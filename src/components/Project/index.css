@@ -1,0 +1,84 @@
+
+.project-class{
+    width: 100%;
+    padding: 20px 0px;
+
+}
+.input-title{
+    opacity: 80%;
+}
+.input-title input{
+    width: 100%;
+    padding: 15px 10px;
+    margin-top: 10px;
+    border:2px solid lightgrey;
+    background-color:#FBFAFC;
+    border-radius: 5px;
+}
+.input-title input:focus{
+    outline: none;
+}
+
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+.input-group input[type=checkbox]{
+    width: 20px;
+    cursor:pointer;
+}
+.input-group input[type='checkbox']:checked{
+    color:antiquewhite;
+}
+
+.time-input{
+opacity: 80%;
+margin-top: 20px;
+width: 50%;
+}
+.time-input label{
+    display: flex;
+    gap: 6px;
+}
+.time-div-class{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #FBFAFC;
+    /* padding: 10px 20px; */
+    border:2px solid lightgrey;
+    gap: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.time-div-class input{
+    width: 90%;
+    padding: 15px 10px;
+    background-color: transparent;
+    border:none;
+}
+.time-div-class input:focus{
+    outline:none;
+}
+.select-time{
+    opacity: 80%;
+margin-top: 20px;
+width: 50%;
+}
+.select-time label{
+    display: flex;
+    gap: 6px;
+}
+.select-time select{
+    width: 100%;
+    padding: 15px 10px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    background-color:#FBFAFC;
+    margin-top: 10px;
+}
+.select-time select:focus{
+    outline: none;
+}

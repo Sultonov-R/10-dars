@@ -1,0 +1,18 @@
+.btn-class{
+    display: flex;
+    padding: 12px 25px;
+    border-radius: 8px;
+    border:2px solid #0062FF;
+    background-color:#0062FF;
+    align-items:center;
+    gap:5px;
+    font-weight: bold;
+    color:#ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-class:hover{
+    color: #0062FF;
+    background-color: #ffffff;
+    transition: all 0.3s;
+}
